@@ -1,17 +1,42 @@
-#磁力链接搜索网站
-http://www.btdepot.com
-http://www.btbook.com
-http://www.btcherry.com
-http://www.cilisou.cn
-http://www.breadsearch.com/
-http://cililian.me/
-http://www.cilizhushou.com/
-http://icili.net/
-http://www.cili8.org/
-http://www.runbt.org/
-http://www.nimasou.com/
-http://www.btsoso.in/
-http://www.zhizhu.so/
+### 磁力链接搜索网站
+* http://www.btdepot.com
+* http://www.btbook.com
+* http://www.btcherry.com
+* http://www.cilisou.cn
+* http://www.breadsearch.com/
+* http://cililian.me/
+* http://www.cilizhushou.com/
+* http://icili.net/
+* http://www.cili8.org/
+* http://www.runbt.org/
+* http://www.nimasou.com/
+* http://www.btsoso.in/
+* http://www.zhizhu.so/
+* http://btbibi.com/
+* http://torrentkittycn.net/
 
-#磁力链接转种子网站
+### 磁力链接转种子网站
+* www.torcache.com
+* http://btdigg.org/
+* http://magnet.vuze.com/magnetLookup?hash=ANRBNFHQ5CZM5BZBNSM4WXFDV4RQFHRX
+``` csharp
+	hash为03621694F0E8B2CE87216C99CB5CA3AF23029E38的base32转码
+	echo -n 03621694F0E8B2CE87216C99CB5CA3AF23029E37 | xxd -r -p|./perl_32.pl 
+
+	#!/usr/bin/perl
+	use MIME::Base32 qw( RFC  );
+	undef $/;  # in case stdin has newlines
+	$string = <STDIN>;
+	$encoded = MIME::Base32::encode($string);
+	print "$encoded\n";
+```
+* http://torrage.com/torrent/66B106B04F931DA3485282C43CF66F6BD795C8C4.torrent
+* http://torcache.net/torrent/66B106B04F931DA3485282C43CF66F6BD795C8C4.torrent
+* http://zoink.it/torrent/66B106B04F931DA3485282C43CF66F6BD795C8C4.torrent
+* http://magnet2torrent.com/：最终重定向使用torrage.com进行下载
+* http://mag2tor.com/static/torrents/05/15/3f/05153f611b337a378f73f0d32d2c16d362d06ba5.torrent 缓存的种子很少
+
+#电影源
+* http://www.douban.com
+* http://pianyuan.net/
 
